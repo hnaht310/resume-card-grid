@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html {
+  font-size: 16px;
+} */
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  margin: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  /* grid-template-rows: repeat(2, 250px); */
+  column-gap: 10px;
+}
+
+.career,
+.experiences {
+  background-color: lightgreen;
+  align-self: start;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.heading {
+  display: flex;
+  gap: 0.5rem;
+  color: rgb(134, 156, 209);
+}
+
+.contact-info {
+  grid-column: 2 / -1;
+  grid-row: 1 / -1;
+  background-color: rgb(165, 179, 215);
+}
+
+#main-pic {
+  width: 100%;
+}
+
+.name-card {
+  background-color: rgb(134, 156, 209);
+  background-color: salmon;
+}
+
+.name-card p {
+  color: white;
+  margin-left: 0.7rem;
+}
+
+.contact-card {
+  text-decoration: underline;
+  color: white;
+  background-color: rgb(165, 179, 215);
+  padding-bottom: 0.1rem;
+}
+
+ul {
+  margin: 1rem 1.3rem;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0.3rem;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  margin: 0.3rem;
+}
+
+/* li p {
+  margin-left: 1rem;
+} */
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time,
+.location {
+  color: gray;
+}
